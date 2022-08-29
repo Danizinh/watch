@@ -1,5 +1,0 @@
-# CREATE
-# READ
-# UPDATE
-# DALETE
-
