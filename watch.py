@@ -5,13 +5,12 @@ import pyglet
 pyglet.font.add_file("digital-7.ttf")
 
 
-###### Cores usadas #######
-cor1 = "#3d3d3d"  # preta
-cor2 = "#fafcff"  # branca
-cor3 = "#21c25c"  # verde
-cor4 = "#eb463b"  # vermelha
-cor5 = "#dedcdc"  # cinza
-cor6 = "#3080f0"  # azul
+cor1 = "#DB2B39"  
+cor2 = "#29335C"  
+cor3 = "#21c25c"
+cor4 = "#F3A712"  
+cor5 = "##6B9AC4" 
+cor6 = "#3080f0"
 
 # fundo da aplicacao
 background = cor1
@@ -22,7 +21,7 @@ janela = Tk()
 janela.title("")
 janela.geometry("440x180")  # application window size - L-A
 janela.resizable(width=FALSE, height=FALSE)
-janela.configure(bg=cor1)  # cor de fundo
+janela.configure(bg=cor1) 
 
 
 def watch():
@@ -35,7 +34,7 @@ def watch():
     year = time.strftime("%Y")
 
     l1.config(text=hour)
-    l1.after(200,watch) # milesegundos
+    l1.after(200,watch)
     l2.config(text= day_week +"  " + str(day) + "/" + str(month) + "/" + str(year))
 
     # print(hour)
