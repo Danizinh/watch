@@ -12,9 +12,8 @@ cor4 = "#F3A712"
 cor5 = "##6B9AC4" 
 cor6 = "#3080f0"
 
-# fundo da aplicacao
+
 background = cor1
-# Color da letra
 color = cor4
 
 janela = Tk()
